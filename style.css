@@ -43,8 +43,13 @@ ul {
 .section-1 {
     flex: 50%;
     padding: 0;
-    margin: 0px 0px 100px 300px;
+    margin: 0 0 100px 300px;
     color: #F9FAF8;
+}
+
+.section-1 h1 {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .row {
@@ -70,8 +75,8 @@ ul {
     background: dodgerblue;
     border: 4px solid midnightblue;
     width: 300px;
-    height: 200px;
-    margin: 20px 300px 0px 50px;
+    height: 250px;
+    margin: 0px 300px 0px 50px;
 }
 
 .box {
@@ -80,12 +85,17 @@ ul {
   border-radius: 20px;
   width: 200px;
   height: 200px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
     display: flex;
     gap: 50px;
     justify-content: center;
+    flex: 1;
     
 }
 
@@ -98,4 +108,10 @@ ul {
 .info {
     max-width: 200px;
     text-align: center;
+    
 }
+
+.text{
+    margin-top: 10px;
+}
+
