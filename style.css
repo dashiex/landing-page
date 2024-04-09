@@ -108,6 +108,7 @@ ul {
 .info {
     max-width: 200px;
     text-align: center;
+    flex: 1;
     
 }
 
@@ -115,3 +116,89 @@ ul {
     margin-top: 10px;
 }
 
+.section-2 {
+  height: 400px;
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.quoteblock {
+
+    width: 60%;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.credit {
+   display: flex;
+   justify-content: end;
+   margin-top: 10px;
+   font-weight: 900;
+
+}
+
+.row-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    
+  }
+
+.modal {
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px 30px 0px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.title-cta {
+    margin: 0 250px 0 50px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.text-cta {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.button-2 {
+
+  background-color: #3882f6; /* Green */
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-2:hover {
+    background-color: #ffffff;
+    color: black
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    color: white;
+}
