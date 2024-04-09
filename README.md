@@ -9,7 +9,7 @@ What did I gain from this project?:
 
 * I've understand the usage of flexbox in css.
 * The basic of css (It's easy for now haha).
-* Satisfaction when you had done a complete landing page from scratch.
+* Satisfaction when you had completed landing page from scratch.
 * Search for a solution in other css/html sources.
 
 
